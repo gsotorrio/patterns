@@ -4,6 +4,6 @@
 const SquareFigure = function(){
 
     this.display = (x, y) => {
-        // here some work!!
+        console.log("I am a square");
     };
 };

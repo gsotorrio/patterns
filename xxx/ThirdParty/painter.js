@@ -3,8 +3,8 @@
 
 const Painter = function(){
     
-    const x = settings.X;
-    const y = settings.Y;
+    const x = 40;
+    const y = 40;
 
     this.pain = (figure) =>{
         figure.display(x, y);

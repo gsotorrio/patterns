@@ -4,6 +4,6 @@
 const TriangleFigure = function(){
 
     this.show = (x, y) => {
-        // here some work!!
+        console.log("I am a triangle");
     };
 };
