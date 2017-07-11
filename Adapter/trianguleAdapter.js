@@ -1,5 +1,5 @@
 
-const NewTriangule = function (){
+const trianguleAdapter = function (){
     const triangule = new TriangleFigure();
     
      this.display = (x, y) => {

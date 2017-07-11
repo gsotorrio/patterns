@@ -5,7 +5,7 @@ const Screen = function (){
     const painter = new Painter();
 
     const square = new SquareFigure();
-    const triangule = new NewTriangule();
+    const triangule = new trianguleAdapter();
 
     this.clickSquare = () => {
         painter.pain(square);
