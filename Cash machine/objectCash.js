@@ -9,9 +9,10 @@ function Note(value) {
         if(note > 0){
             value = value - billetes;
             console.log(billetes);
+            this.countNotes(500);
         }
         else{
-            
+            this.countNotes()
         }
     }
 }
